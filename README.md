@@ -1,16 +1,48 @@
-# React + Vite
+# 🌦️ WeatherApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### A sleek, responsive weather application built with React & Vite
 
-Currently, two official plugins are available:
+## 📌 About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**WeatherApp** is a fast and intuitive weather application that lets users check real-time weather information and forecasts for any city.  
+This project shows how to fetch data, render UI components, and manage app state with modern tooling.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🖼️ Visuals
 
-## Expanding the ESLint configuration
+<img src="https://github.com/Devansh-2608/WeatherApp/blob/392d2da931e3bf9bc24c1bb4bf7537297cdc4cde/WeatherApp.png" alt="Home Page" style="height: 500px;">
+<img src="https://github.com/Devansh-2608/WeatherApp/blob/392d2da931e3bf9bc24c1bb4bf7537297cdc4cde/WeatherApp1.png" alt="Home Page" style="height: 500px;">
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 🚀 Features
+
+✨ **Dynamic Search** — Type any city name to get current weather data.  </br> 
+
+🌍 **Global Coverage** — Works with cities all around the world.  </br>
+
+📊 **Live Weather Info** — Displays temperature, humidity, conditions, and more.  </br>
+
+📱 **Responsive UI** — Looks clean and works well on mobile and desktop. </br>
+
+⚡**Fast Load Times** – Powered by Vite for lightning-fast development and refresh.</br>
+
+🔄 **Instant Updates** – Weather updates dynamically without page reloads.</br>
+
+❌ **Error Handling** – Displays friendly messages for invalid city names or API errors.</br>
+
+📦 **Environment Variable Support** – API keys secured using .env files.</br>
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Frontend | React (JavaScript) |
+| Build | Vite |
+| Styling | CSS |
+| API | Weather API (e.g., OpenWeatherMap) |
+| Package Manager | npm |
